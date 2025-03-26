@@ -40,7 +40,7 @@ const scrapeAmazon = async (keyword) => {
     // Product data collection
     const products = Array.from(productElements)
       .map((item) => {
-        const title = item.querySelector('h2')?.textContent || '';
+        const title = item.querySelector('a.a-link-normal h2')?.textContent.trim() || '';
         const rating = item.querySelector('.a-popover-trigger .a-icon-star-small .a-icon-alt')?.textContent.trim() || undefined;
         const reviews = item.querySelector('.a-declarative a span.a-size-base')?.textContent.trim() || undefined;
         const image = item.querySelector('.s-image')?.getAttribute('src') || '';
