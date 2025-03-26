@@ -10,7 +10,15 @@ This project is an Amazon product scraper, developed with Node.js, Express, Bun 
 
 ## 📋 Configuration and Execution
 
-### 1️⃣ Install Dependencies
+### 1️⃣ Clone the Repository
+
+First, clone the repository to your local machine:
+```sh
+git clone https://github.com/leomloncarovich/Amazon-Scraper-Vite.git
+cd amazon-scraper-vite
+```
+
+### 2️⃣ Install Dependencies
 
 Make sure you have **Bun** installed on your machine. If you don't, install it with:
 ```sh
@@ -21,14 +29,14 @@ Now, install the project dependencies:
 bun install
 ```
 
-### 2️⃣ Run the Project
+### 3️⃣ Run the Project
 To run the frontend and backend at the same time, use the following command:
 ```sh
 bun run dev
 ```
 This will run both the Express server and Vite simultaneously.
 
-### 3️⃣ Access the Application
+### 4️⃣ Access the Application
 After starting the project, access:
 ```
 Frontend: http://localhost:5173
